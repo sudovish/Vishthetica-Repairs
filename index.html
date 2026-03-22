@@ -173,39 +173,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:900;height:70px;display:flex;ali
 .lphoto-dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.5);border:none;cursor:pointer;padding:0;transition:background .2s;}
 .lphoto-dot.on{background:#fff;}
 .lphoto-count{position:absolute;top:8px;left:8px;background:rgba(26,22,18,.5);color:#fff;font-size:.68rem;font-weight:600;padding:3px 8px;border-radius:50px;z-index:2;}
-.photo-upload-zone{border:2px dashed var(--m2);border-radius:var(--rs);padding:18px;text-align:center;cursor:pointer;transition:border-color .2s;margin-top:10px;background:rgba(255,255,255,.4);display:block;}
-.photo-upload-zone:hover{border-color:var(--gold);}
-.photo-upload-zone p{font-size:.8rem;color:var(--soft);margin-bottom:4px;}
-.photo-upload-zone span{font-size:.72rem;color:var(--soft);opacity:.7;}
-.photo-upload-input{display:none;}
-.photo-thumbs{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px;}
-.photo-thumb{position:relative;width:60px;height:60px;border-radius:8px;overflow:hidden;border:1px solid var(--m2);flex-shrink:0;}
-.photo-thumb img{width:100%;height:100%;object-fit:cover;display:block;}
-.photo-thumb-del{position:absolute;top:2px;right:2px;width:18px;height:18px;border-radius:50%;background:rgba(220,38,38,.85);border:none;color:#fff;font-size:.65rem;cursor:pointer;display:flex;align-items:center;justify-content:center;font-weight:700;line-height:1;}
-.photo-count-label{font-size:.72rem;color:var(--soft);margin-top:6px;}
-.pcopts{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-bottom:48px;}
-.pcopt{padding:30px 26px;text-align:center;transition:transform .3s,box-shadow .3s;}
-.pcopt:hover{transform:translateY(-4px);box-shadow:var(--sh);}
-.pcopt.feat{background:var(--ink);border-color:var(--gb);}
-.pcico{font-size:2.4rem;margin-bottom:14px;}
-.pcopt h3{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:600;color:var(--ink);margin-bottom:9px;}
-.pcopt.feat h3{color:#fff;}
-.pcopt p{font-size:.84rem;color:var(--mid);line-height:1.62;}
-.pcopt.feat p{color:rgba(255,255,255,.55);}
-.pcopt .btn{margin-top:18px;width:100%;}
-.freetag{display:inline-block;margin-bottom:10px;padding:4px 11px;border-radius:50px;background:rgba(34,197,94,.15);color:#16a34a;border:1px solid rgba(34,197,94,.28);font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;}
-.pcgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
-.pccard{overflow:hidden;transition:transform .3s;}
-.pccard:hover{transform:translateY(-3px);}
-.pccimg{height:130px;background:linear-gradient(135deg,#1a1a2e,#16213e,#0f3460);display:flex;align-items:center;justify-content:center;font-size:2.8rem;position:relative;}
-.pccimg::after{content:'';position:absolute;inset:0;background:radial-gradient(circle,rgba(184,150,90,.14) 0%,transparent 70%);}
-.pccbody{padding:16px;}
-.pccbody h4{font-family:'Playfair Display',serif;font-size:.93rem;font-weight:600;color:var(--ink);margin-bottom:5px;}
-.pcspecs{font-size:.77rem;color:var(--soft);line-height:1.5;margin-bottom:11px;}
-.pcprow{display:flex;align-items:center;gap:7px;margin-bottom:11px;flex-wrap:wrap;}
-.pcprice{font-family:'Playfair Display',serif;font-size:1.15rem;font-weight:700;color:var(--ink);}
-.pcorig{font-size:.8rem;color:var(--soft);text-decoration:line-through;}
-.pcsave{font-size:.68rem;font-weight:600;color:#16a34a;background:rgba(34,197,94,.1);padding:2px 7px;border-radius:50px;}
 .mp-hero{background:linear-gradient(135deg,#1877f2 0%,#0d5bba 100%);border-radius:22px;padding:56px;margin-bottom:36px;position:relative;overflow:hidden;text-align:center;}
 .mp-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 50% 50%,rgba(255,255,255,.1) 0%,transparent 65%);}
 .mp-hero>*{position:relative;z-index:1;}
@@ -231,39 +198,6 @@ nav{position:fixed;top:0;left:0;right:0;z-index:900;height:70px;display:flex;ali
 .mp-tip-ico{font-size:1.4rem;flex-shrink:0;margin-top:2px;}
 .mp-tip h4{font-family:'Playfair Display',serif;font-size:.92rem;color:var(--ink);margin-bottom:4px;}
 .mp-tip p{font-size:.82rem;color:var(--mid);line-height:1.6;}
-.admwrap{max-width:900px;margin:0 auto;padding:40px 56px 80px;}
-.logincard{max-width:400px;margin:50px auto;padding:44px;text-align:center;}
-.logincard h2{font-family:'Playfair Display',serif;font-size:1.75rem;color:var(--ink);margin-bottom:7px;}
-.logincard p{color:var(--soft);font-size:.875rem;margin-bottom:26px;}
-.logincard input{width:100%;padding:12px 15px;border-radius:var(--rs);border:1.5px solid var(--m2);background:rgba(255,255,255,.8);font-family:'DM Sans',sans-serif;font-size:.9rem;color:var(--ink);outline:none;transition:border-color .2s;margin-bottom:12px;}
-.logincard input:focus{border-color:var(--gold);}
-.loginerr{color:#dc2626;font-size:.78rem;margin-bottom:10px;min-height:18px;}
-.admsec{padding:28px;margin-bottom:22px;}
-.admsec h3{font-family:'Playfair Display',serif;font-size:1.15rem;color:var(--ink);margin-bottom:18px;padding-bottom:10px;border-bottom:1px solid rgba(184,150,90,.18);}
-.admrow{display:grid;grid-template-columns:2fr 1fr 1fr 80px;gap:10px;align-items:center;padding:9px 0;border-bottom:1px solid rgba(238,235,230,.9);}
-.admrow:last-child{border-bottom:none;}
-.admrow label{font-size:.83rem;font-weight:500;color:var(--mid);}
-.admrow input{padding:7px 11px;border-radius:8px;border:1.5px solid var(--m2);background:rgba(255,255,255,.8);font-family:'DM Sans',sans-serif;font-size:.83rem;color:var(--ink);outline:none;width:100%;}
-.admrow .note{font-size:.72rem;color:var(--soft);}
-.sell-adm-item{border:1px solid rgba(238,235,230,.9);border-radius:var(--rs);padding:14px;margin-bottom:12px;background:rgba(255,255,255,.5);}
-.sell-adm-row1{display:grid;grid-template-columns:2fr 80px 80px 100px 36px;gap:8px;align-items:center;margin-bottom:8px;}
-.sell-adm-row1 input,.sell-adm-row1 select{padding:6px 10px;border-radius:8px;border:1.5px solid var(--m2);background:rgba(255,255,255,.8);font-family:'DM Sans',sans-serif;font-size:.8rem;color:var(--ink);outline:none;width:100%;}
-.sell-adm-desc,.sell-adm-text{width:100%;padding:7px 11px;border-radius:8px;border:1.5px solid var(--m2);background:rgba(255,255,255,.8);font-family:'DM Sans',sans-serif;font-size:.8rem;color:var(--ink);outline:none;margin-top:4px;box-sizing:border-box;}
-.sell-adm-desc{resize:vertical;}
-.sell-adm-label{font-size:.72rem;font-weight:600;color:var(--soft);margin-top:8px;letter-spacing:.04em;text-transform:uppercase;display:block;}
-.admlistrow{display:grid;grid-template-columns:2fr 80px 80px 1fr 36px;gap:8px;align-items:center;padding:8px 0;border-bottom:1px solid rgba(238,235,230,.9);}
-.admlistrow:last-child{border-bottom:none;}
-.admlistrow input,.admlistrow select{padding:6px 10px;border-radius:8px;border:1.5px solid var(--m2);background:rgba(255,255,255,.8);font-family:'DM Sans',sans-serif;font-size:.8rem;color:var(--ink);outline:none;width:100%;}
-.admsave{padding:9px 20px;border-radius:8px;background:var(--ink);color:#fff;font-family:'DM Sans',sans-serif;font-size:.85rem;font-weight:500;border:none;cursor:pointer;}
-.admsave:hover{background:#2c2c2c;}
-.admdel{width:30px;height:30px;border-radius:7px;background:rgba(220,38,38,.1);border:1px solid rgba(220,38,38,.22);color:#dc2626;font-size:.85rem;cursor:pointer;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;}
-.admdel:hover{background:rgba(220,38,38,.18);}
-.admadd{padding:9px 18px;border-radius:var(--rs);background:var(--gold);color:#fff;font-family:'DM Sans',sans-serif;font-size:.845rem;font-weight:500;border:none;cursor:pointer;margin-bottom:18px;display:inline-block;}
-.admadd:hover{background:var(--gold2);}
-.admtop{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px;}
-.admtop h1{font-family:'Playfair Display',serif;font-size:1.9rem;color:var(--ink);}
-.signout{padding:8px 18px;border-radius:50px;border:1.5px solid var(--m2);background:transparent;font-family:'DM Sans',sans-serif;font-size:.82rem;color:var(--soft);cursor:pointer;}
-.signout:hover{border-color:var(--gold);color:var(--gold);}
 .modal-overlay{display:none;position:fixed;inset:0;z-index:9000;background:rgba(26,22,18,.65);align-items:center;justify-content:center;padding:20px;}
 .modal-overlay.open{display:flex;}
 .modal-box{background:#f5f3ef;border-radius:var(--r);padding:36px;max-width:460px;width:100%;box-shadow:0 20px 80px rgba(26,22,18,.22);position:relative;}
@@ -303,9 +237,7 @@ footer p{font-size:.83rem;line-height:1.7;}
     <button class="nb" id="n-repairs">Repairs</button>
     <button class="nb" id="n-selling">Selling</button>
     <button class="nb" id="n-buyback">Buyback</button>
-    <button class="nb" id="n-buildpc">Build PC</button>
     <button class="nb" id="n-marketplace">🛍 Marketplace</button>
-    <button class="nb adm" id="n-admin">⚙ Admin</button>
   </div>
   <button class="ham" id="hambtn"><span></span><span></span><span></span></button>
 </nav>
@@ -314,9 +246,7 @@ footer p{font-size:.83rem;line-height:1.7;}
   <button class="nb" id="mn-repairs">Repairs</button>
   <button class="nb" id="mn-selling">Selling</button>
   <button class="nb" id="mn-buyback">Buyback</button>
-  <button class="nb" id="mn-buildpc">Build PC</button>
   <button class="nb" id="mn-marketplace">🛍 Marketplace</button>
-  <button class="nb adm" id="mn-admin">⚙ Admin</button>
 </div>
 
 <div class="page on" id="pg-overview">
@@ -324,7 +254,7 @@ footer p{font-size:.83rem;line-height:1.7;}
     <div>
       <div class="pill">Surrey, BC · Repair Specialist</div>
       <h1>Repairs Done <em>Right.</em><br>Priced for Everyone.</h1>
-      <p>Visthetica Repair Services was built on a simple belief — quality repairs shouldn't cost a fortune. As a computer engineer with over five years of hands-on experience, I bring professional-grade precision to every device, with full transparency every step of the way.</p>
+      <p>Visthetica Repair Services was built on a simple belief — quality repairs shouldn't cost a fortune. As a computer engineer uni student with over five years of hands-on experience, I bring technical precision beyond your average repair shop.</p>
       <div class="hbtns">
         <button class="btn bd" id="h-repairs">View Repair Pricing</button>
         <button class="btn bo" id="h-buyback">Sell My Device</button>
@@ -400,49 +330,40 @@ footer p{font-size:.83rem;line-height:1.7;}
 </div>
 
 <div class="page" id="pg-buyback">
-  <div class="ph"><div class="eye">Phone Buyback Program</div><h1>Sell Your Device</h1><p>Get cash for your old or broken phone. Fair prices, quick assessment, no hassle.</p></div>
+  <div class="ph"><div class="eye">Phone Buyback Program</div><h1>Sell Your Device</h1><p>If you want a buyback quote, message me with your device details and I will get back to you.</p></div>
   <div class="wrap" style="padding-bottom:70px">
     <div class="bbhero">
-      <div><div class="bbbadge">💰 Instant Offers</div><h2>Turn Your Old Phone Into Cash</h2><p>Whether it's cracked, outdated, or sitting in a drawer — I'll make you a fair offer. iPhones, Samsung, and Android devices in any condition.</p></div>
+      <div><div class="bbbadge">💰 Instant Offers</div><h2>Message Me for a Buyback Quote</h2><p>I look for a few key details before I give an offer. Send me as much information as you can so I can quote your device properly.</p></div>
       <div>
-        <div class="bbstep"><div class="bbnum">1</div><div><h4>Submit Your Device Info</h4><p>Fill out the form with your device details.</p></div></div>
-        <div class="bbstep"><div class="bbnum">2</div><div><h4>Get a Fast Quote</h4><p>I'll reply with a fair offer, usually within hours.</p></div></div>
-        <div class="bbstep"><div class="bbnum">3</div><div><h4>Meet &amp; Get Paid</h4><p>Surrey / Metro Vancouver. Cash on the spot.</p></div></div>
+        <div class="bbstep"><div class="bbnum">1</div><div><h4>Send the Device Details</h4><p>Please include the model, storage, RAM, battery health, and whether the phone is broken or fully working.</p></div></div>
+        <div class="bbstep"><div class="bbnum">2</div><div><h4>Send the Condition Info</h4><p>Let me know the overall condition and whether the charger and box are included.</p></div></div>
+        <div class="bbstep"><div class="bbnum">3</div><div><h4>Contact Me Directly</h4><p>Email me, text me, or DM me on Instagram and I will reply with a buyback quote.</p></div></div>
       </div>
     </div>
     <div class="gc fwrap">
-      <h3>Submit a Buyback Request</h3><p>Tell me about your device and I'll reach out with an offer.</p>
+      <h3>What to Include When You Contact Me</h3><p>To get the most accurate buyback quote, please send me the information below when you reach out.</p>
       <div class="fggrid">
-        <div class="fg"><label>Your Name</label><input type="text" id="bb-name" placeholder="Full name"/></div>
-        <div class="fg"><label>Contact (Phone or Email)</label><input type="text" id="bb-contact" placeholder="How should I reach you?"/></div>
-        <div class="fg"><label>Device Brand</label><select id="bb-brand"><option value="">Select brand</option><option>Apple iPhone</option><option>Samsung Galaxy</option><option>Google Pixel</option><option>OnePlus</option><option>Other</option></select></div>
-        <div class="fg"><label>Model (e.g. iPhone 13 Pro)</label><input type="text" id="bb-model" placeholder="Be as specific as possible"/></div>
-        <div class="fg"><label>Storage</label><select><option>64GB</option><option>128GB</option><option>256GB</option><option>512GB</option><option>1TB</option><option>Not sure</option></select></div>
-        <div class="fg"><label>Condition</label><select><option>Excellent – Like new</option><option>Good – Minor scratches, works fine</option><option>Fair – Cracked but working</option><option>Poor – Multiple issues</option></select></div>
+        <div class="fg"><label>Device Model</label><input type="text" value="Example: iPhone 13 Pro Max" readonly/></div>
+        <div class="fg"><label>Storage</label><input type="text" value="128GB, 256GB, etc." readonly/></div>
+        <div class="fg"><label>RAM</label><input type="text" value="6GB, 8GB, etc." readonly/></div>
+        <div class="fg"><label>Battery Health</label><input type="text" value="Example: 87% battery health" readonly/></div>
+        <div class="fg"><label>Broken or Working</label><input type="text" value="Tell me if it is fully working or what is broken" readonly/></div>
+        <div class="fg"><label>Overall Condition</label><input type="text" value="Excellent, Good, Fair, or Poor" readonly/></div>
+        <div class="fg"><label>Charger Included?</label><input type="text" value="Yes or No" readonly/></div>
+        <div class="fg"><label>Box Included?</label><input type="text" value="Yes or No" readonly/></div>
       </div>
-      <div class="fg"><label>Describe any damage or issues</label><textarea id="bb-notes" rows="3" placeholder="Cracked screen, battery issues, won't turn on, etc."></textarea></div>
-      <div class="fnote">ℹ️ <strong>Note:</strong> I'll follow up via your preferred contact. Final price determined after in-person inspection. Local — Surrey / Metro Vancouver area only.</div>
-      <button class="btn bd bfull" id="bbsubmit" style="margin-top:20px">Submit Buyback Request →</button>
+      <div class="fg"><label>Extra Notes</label><textarea rows="3" readonly>Tell me about cracks, repairs, Face ID issues, battery problems, or anything else I should know.</textarea></div>
+      <div class="fnote">ℹ️ <strong>When contacting me, please include:</strong> battery health, device condition, whether the charger and box are included, storage, RAM, and whether the device is broken or working.</div>
+      <div class="clinks" style="margin-top:20px"><a class="clink ce" href="mailto:rhingthe@gmail.com">✉ Email Me</a><a class="clink ce" href="sms:+17786361451">💬 Text Me</a><a class="clink ci" href="https://www.instagram.com/vishthetica" target="_blank">📸 DM on Instagram</a></div>
     </div>
   </div>
 </div>
 
 <div class="page" id="pg-selling">
-  <div class="ph"><div class="eye">Device Marketplace</div><h1>Devices for Sale</h1><p>Quality phones, tested and ready to go. Updated live — check back often for new arrivals.</p></div>
+  <div class="ph"><div class="eye">Device Marketplace</div><h1>Devices for Sale</h1><p>Browse current categories like MacBooks, iPads, and iPhones. Updated live — check back often for new arrivals.</p></div>
   <div class="wrap" style="padding-bottom:70px"><div class="lgrid" id="sellinggrid"></div></div>
 </div>
 
-<div class="page" id="pg-buildpc">
-  <div class="ph"><div class="eye">Custom PC Builds</div><h1>Build Your PC</h1><p>Whether you want to shop smart, buy new, or just need guidance — I've got you. Free advice, always.</p></div>
-  <div class="wrap" style="padding-bottom:70px">
-    <div class="pcopts">
-      <div class="gc pcopt"><div class="pcico">🛒</div><h3>Marketplace Deals</h3><p>I source quality used and refurbished components at significantly better prices than retail. Great for budget-conscious builders.</p><button class="btn bd" id="pc-browse">Browse Listings ↓</button></div>
-      <div class="gc pcopt feat"><div class="freetag">✦ Always Free</div><div class="pcico">💬</div><h3>Free Build Advice</h3><p>Tell me your budget and what you want to do — gaming, editing, streaming — and I'll put together a free custom build recommendation.</p><button class="btn bg2" id="pc-advice">Get Free Advice →</button></div>
-      <div class="gc pcopt"><div class="pcico">🏪</div><h3>Retail Guidance</h3><p>Prefer buying new from Canada Computers or Amazon? I'll point you to the right parts — honest advice, no commission.</p><button class="btn bd" id="pc-retail">Ask for Guidance →</button></div>
-    </div>
-    <div id="pc-section"><div class="eye">Current PC Listings</div><div class="stitle" style="margin-bottom:24px">Components &amp; Builds For Sale</div><div class="pcgrid" id="pcgrid"></div></div>
-  </div>
-</div>
 
 <div class="page" id="pg-marketplace">
   <div class="ph"><div class="eye">Facebook Marketplace</div><h1>Find Me on Marketplace</h1><p>Browse my active listings, check my seller rating, and message me directly on Facebook Marketplace.</p></div>
@@ -482,34 +403,12 @@ footer p{font-size:.83rem;line-height:1.7;}
   </div>
 </div>
 
-<div class="page" id="pg-admin">
-  <div class="admwrap">
-    <div id="loginwrap">
-      <div class="gc logincard"><h2>Admin Access</h2><p>Enter your password to manage listings and pricing.</p><input type="password" id="admpw" placeholder="Password"/><div class="loginerr" id="admerr"></div><button class="btn bd bfull" id="loginbtn">Sign In</button></div>
-    </div>
-    <div id="panelwrap" style="display:none">
-      <div class="admtop"><div><div class="eye">Admin Panel</div><h1>Manage Visthetica</h1></div><button class="signout" id="logoutbtn">Sign Out</button></div>
-      <div class="gc admsec"><h3>📱 iPhone Screen Prices</h3><div id="iphrows"></div><button class="admsave" id="saveiph" style="margin-top:14px">Save iPhone Prices</button></div>
-      <div class="gc admsec">
-        <h3>🔋 Battery Prices</h3>
-        <div class="admrow"><label>iPhone 6–8</label><input type="number" id="bat-low"/><div class="note">Base price ($)</div><span></span></div>
-        <div class="admrow"><label>iPhone X–13</label><input type="number" id="bat-mid"/><div class="note">Base price ($)</div><span></span></div>
-        <div class="admrow"><label>iPhone 14–16</label><input type="number" id="bat-high"/><div class="note">Base price ($)</div><span></span></div>
-        <div class="admrow"><label>Pro Upcharge (+$)</label><input type="number" id="bat-pro"/><div class="note">Added for Pro</div><span></span></div>
-        <div class="admrow"><label>Pro Max Upcharge (+$)</label><input type="number" id="bat-promax"/><div class="note">Added for Pro Max</div><span></span></div>
-        <button class="admsave" id="savebat" style="margin-top:14px">Save Battery Prices</button>
-      </div>
-      <div class="gc admsec"><h3>📦 Selling Listings</h3><button class="admadd" id="addsell">+ Add Listing</button><div id="sellrows"></div><button class="admsave" id="savesell" style="margin-top:14px">Save Listings</button></div>
-      <div class="gc admsec"><h3>🖥 PC Listings</h3><button class="admadd" id="addpc">+ Add PC Listing</button><div id="pcrows"></div><button class="admsave" id="savepc" style="margin-top:14px">Save PC Listings</button></div>
-    </div>
-  </div>
-</div>
 
 <footer>
   <div class="flogo">Visthetica Repair Services</div>
   <p>Surrey, BC · Serving Metro Vancouver</p>
   <div class="flinks">
-    <button id="f-overview">Home</button><button id="f-repairs">Repairs</button><button id="f-selling">Selling</button><button id="f-buyback">Buyback</button><button id="f-buildpc">Build PC</button><button id="f-marketplace">Marketplace</button>
+    <button id="f-overview">Home</button><button id="f-repairs">Repairs</button><button id="f-selling">Selling</button><button id="f-buyback">Buyback</button><button id="f-marketplace">Marketplace</button>
     <a href="https://www.instagram.com/vishthetica" target="_blank">Instagram</a>
     <a href="mailto:rhingthe@gmail.com">Email</a>
   </div>
@@ -521,7 +420,13 @@ footer p{font-size:.83rem;line-height:1.7;}
     <button class="modal-x" id="modalclose">✕</button>
     <h3 id="modaltitle">Get in Touch</h3>
     <p id="modalbody">Reach out via Instagram for the fastest response, or send an email.</p>
-    <div class="clinks"><a class="clink ci" href="https://www.instagram.com/vishthetica" target="_blank">📸 @vishthetica</a><a class="clink ce" href="mailto:rhingthe@gmail.com">✉ rhingthe@gmail.com</a></div>
+    <div class="clinks" style="flex-direction:column;align-items:stretch;gap:10px">
+      <a class="clink" href="tel:+17786361451" style="background:var(--ink);justify-content:center">📞 Call to Inquire: (778) 636-1451</a>
+      <div style="display:flex;gap:10px">
+        <a class="clink ce" href="mailto:rhingthe@gmail.com" style="flex:1;justify-content:center">✉ rhingthe@gmail.com</a>
+        <a class="clink ci" href="https://www.instagram.com/vishthetica" target="_blank" style="flex:1;justify-content:center">📸 @vishthetica</a>
+      </div>
+    </div>
   </div>
 </div>
 <div class="toast" id="toastel"></div>
@@ -542,16 +447,16 @@ var STATE = {
   ],
   battery:{low:65,mid:80,high:95,pro:10,promax:15},
   selling:[
-    {id:1,name:'iPhone 13 Pro – 128GB',specs:'Midnight · 128GB · Unlocked',desc:'Battery health at 91%. Minor hairline scratch on the back. Full Face ID and camera functionality.',price:480,original:500,condition:'Excellent',icon:'📱',sold:false,images:[],listingUrl:''},
-    {id:2,name:'Samsung Galaxy S22 – 256GB',specs:'Phantom Black · 256GB · Unlocked',desc:'In great working condition. Small scuff on the corner. Display is flawless.',price:320,original:340,condition:'Good',icon:'📲',sold:false,images:[],listingUrl:''},
-    {id:3,name:'iPhone 11 – 64GB',specs:'Black · 64GB · Unlocked',desc:'Fully functional. Minor scratches on back — screen is perfect.',price:180,original:200,condition:'Good',icon:'📱',sold:true,images:[],listingUrl:''}
+    {id:1,name:'MacBooks',specs:'Air and Pro models available',desc:'Tested Apple laptops with options that vary by chip, storage, and condition. Contact me for current stock and pricing.',price:0,original:0,condition:'Good',icon:'💻',sold:false,images:[],listingUrl:'',contactOnly:true},
+    {id:2,name:'iPads',specs:'Standard, Air, Mini, and Pro options',desc:'Clean iPads ready for school, work, or media use. Availability changes often, so message me for the latest lineup.',price:0,original:0,condition:'Good',icon:'📲',sold:false,images:[],listingUrl:'',contactOnly:true},
+    {id:3,name:'iPhones',specs:'Multiple generations and storage options',desc:'Unlocked iPhones in a range of conditions, from budget-friendly daily drivers to newer premium models.',price:0,original:0,condition:'Good',icon:'📱',sold:false,images:[],listingUrl:'',contactOnly:true},
   ],
-  pc:[
-    {id:1,name:'RTX 3060 Ti',specs:'8GB GDDR6 · LHR · Great for 1440p gaming',price:240,original:260,icon:'🎮'},
-    {id:2,name:'Ryzen 5 5600X Bundle',specs:'CPU + B550 Mobo + 16GB DDR4 · Ready to build',price:280,original:300,icon:'⚙️'},
-    {id:3,name:'Custom Gaming Build',specs:'i5-12400F · RX 6700 · 16GB · 500GB SSD',price:680,original:700,icon:'🖥'}
-  ]
 };
+
+// Load persisted admin changes from localStorage
+(function(){
+  try{var sl=localStorage.getItem('vth_selling');if(sl)STATE.selling=JSON.parse(sl);}catch(e){}
+})();
 
 var PASS='visthetica2024', loggedIn=false, toastT=null;
 function ge(id){return document.getElementById(id);}
@@ -561,7 +466,7 @@ function toast(msg){var t=ge('toastel');t.textContent=msg;t.classList.add('show'
 function showModal(title,body){ge('modaltitle').textContent=title;ge('modalbody').textContent=body;ge('modaloverlay').classList.add('open');}
 function closeModal(){ge('modaloverlay').classList.remove('open');}
 
-var PAGES=['overview','repairs','selling','buyback','buildpc','marketplace','admin'];
+var PAGES=['overview','repairs','selling','buyback','marketplace'];
 function goTo(pid){
   PAGES.forEach(function(p){var pg=ge('pg-'+p);if(pg)pg.classList.remove('on');});
   document.querySelectorAll('.nb').forEach(function(b){b.classList.remove('on');});
@@ -571,8 +476,6 @@ function goTo(pid){
   window.scrollTo(0,0);
   if(pid==='repairs')buildRepairs();
   if(pid==='selling')buildSelling();
-  if(pid==='buildpc')buildPC();
-  if(pid==='admin')initAdmin();
 }
 
 ge('logo').addEventListener('click',function(){goTo('overview');});
@@ -601,9 +504,7 @@ ge('bbsubmit').addEventListener('click',function(){
   ge('bb-name').value='';ge('bb-contact').value='';ge('bb-model').value='';ge('bb-notes').value='';ge('bb-brand').selectedIndex=0;
 });
 
-ge('pc-browse').addEventListener('click',function(){ge('pc-section').scrollIntoView({behavior:'smooth'});});
-ge('pc-advice').addEventListener('click',function(){showModal('Free Build Advice','Message me with your budget and what you plan to use the PC for and I will put together a free custom build recommendation just for you!');});
-ge('pc-retail').addEventListener('click',function(){showModal('Retail Guidance','Message me with your budget and requirements and I will tell you exactly what to get — honest advice, no commission.');});
+
 
 function buildRepairs(){
   var tbody=ge('screentbody');if(!tbody)return;
@@ -662,129 +563,18 @@ function buildSelling(){
       var ed=document.createElement('div');ed.className='limg';ed.innerHTML='<div class="lico">'+(l.icon||'📱')+'</div><span class="cbadge '+condCls+'">'+condTxt+'</span>';card.appendChild(ed);
     }
     var body=document.createElement('div');body.className='lbody';
-    body.innerHTML='<h3>'+esc(l.name)+'</h3><div class="lspecs">'+esc(l.specs)+'</div>'+(l.desc?'<div class="ldesc">'+esc(l.desc)+'</div>':'')+'<div class="lprow"><span class="lprice">$'+l.price+'</span>'+(sav?'<span class="lorig">$'+l.original+'</span><span class="lsave">Save $'+sav+'</span>':'')+'</div>';
+    var priceHtml=l.contactOnly?'<span class="lprice" style="font-size:1rem;color:var(--gold)">📞 (778) 636-1451</span>':(sold?'':'<span class="lprice">$'+l.price+'</span>'+(sav?'<span class="lorig">$'+l.original+'</span><span class="lsave">Save $'+sav+'</span>':''));
+    body.innerHTML='<h3>'+esc(l.name)+'</h3><div class="lspecs">'+esc(l.specs)+'</div>'+(l.desc?'<div class="ldesc">'+esc(l.desc)+'</div>':'')+'<div class="lprow">'+priceHtml+'</div>';
     var inquireBtn=document.createElement('button');inquireBtn.className='btn bd bfull bsm';inquireBtn.style.marginBottom='8px';inquireBtn.disabled=sold;inquireBtn.textContent=sold?'Sold':'Inquire to Buy →';
-    if(!sold){(function(name){inquireBtn.addEventListener('click',function(){showModal('Interested in '+name+'?','Message me on Instagram @vishthetica or email rhingthe@gmail.com. Mention "'+name+'" so I know what you are after!');});})(l.name);}
+    if(!sold){(function(name,num){inquireBtn.addEventListener('click',function(){showModal('Interested in '+name+'?','Call or text (778) 636-1451, message me on Instagram @vishthetica, or email rhingthe@gmail.com. Mention "'+name+'" so I know what you are after!');});})(l.name);}
+
     body.appendChild(inquireBtn);
     if(l.listingUrl){var viewBtn=document.createElement('a');viewBtn.className='btn bo bfull bsm';viewBtn.style.display='flex';viewBtn.href=l.listingUrl;viewBtn.target='_blank';viewBtn.textContent='View Marketplace Listing ↗';body.appendChild(viewBtn);}
     card.appendChild(body);g.appendChild(card);
   });
 }
 
-function buildPC(){
-  var g=ge('pcgrid');if(!g)return;g.innerHTML='';
-  if(!STATE.pc.length){g.innerHTML='<div class="empty" style="grid-column:1/-1">No PC listings right now.</div>';return;}
-  STATE.pc.forEach(function(l){
-    var sav=(l.original&&l.original>l.price)?(l.original-l.price):0;
-    var card=document.createElement('div');card.className='gc pccard';
-    card.innerHTML='<div class="pccimg">'+(l.icon||'🖥')+'</div><div class="pccbody"><h4>'+esc(l.name)+'</h4><div class="pcspecs">'+esc(l.specs)+'</div><div class="pcprow"><span class="pcprice">$'+l.price+'</span>'+(sav?'<span class="pcorig">$'+l.original+'</span><span class="pcsave">Save $'+sav+'</span>':'')+'</div><button class="btn bd bfull bsm">Message to Buy →</button></div>';
-    var btn=card.querySelector('button');
-    (function(name){btn.addEventListener('click',function(){showModal('Interested in '+name+'?','Message me on Instagram @vishthetica or email rhingthe@gmail.com. Mention "'+name+'" and I will get back to you!');});})(l.name);
-    g.appendChild(card);
-  });
-}
 
-function refreshThumbs(idx){
-  var tg=ge('sl-thumbs-'+idx),cl=ge('sl-pcount-'+idx);if(!tg||!cl)return;
-  var imgs=STATE.selling[idx]?(STATE.selling[idx].images||[]):[];
-  tg.innerHTML='';
-  imgs.forEach(function(src,pi){
-    var thumb=document.createElement('div');thumb.className='photo-thumb';
-    var img=document.createElement('img');img.src=src;
-    var del=document.createElement('button');del.className='photo-thumb-del';del.textContent='x';del.type='button';
-    (function(pidx,iidx){del.addEventListener('click',function(e){e.preventDefault();STATE.selling[iidx].images.splice(pidx,1);refreshThumbs(iidx);});})(pi,idx);
-    thumb.appendChild(img);thumb.appendChild(del);tg.appendChild(thumb);
-  });
-  cl.textContent=imgs.length+' / 6 photos';
-}
-
-function inp(type,id,val,ph){var el=document.createElement('input');el.type=type;el.id=id;el.value=val||'';el.placeholder=ph||'';el.style.cssText='width:100%;padding:7px 11px;border-radius:8px;border:1.5px solid var(--m2);background:rgba(255,255,255,.8);font-family:inherit;font-size:.8rem;color:var(--ink);outline:none;margin-top:4px;box-sizing:border-box;';return el;}
-function lbl(text){var el=document.createElement('div');el.className='sell-adm-label';el.textContent=text;return el;}
-
-function buildAdminSell(){
-  var c=ge('sellrows');c.innerHTML='';
-  STATE.selling.forEach(function(l,i){
-    var item=document.createElement('div');item.className='sell-adm-item';
-    var row1=document.createElement('div');row1.className='sell-adm-row1';
-    var nameIn=document.createElement('input');nameIn.type='text';nameIn.id='sl-n-'+i;nameIn.value=l.name||'';nameIn.placeholder='Listing name';
-    var priceIn=document.createElement('input');priceIn.type='number';priceIn.id='sl-p-'+i;priceIn.value=l.price||0;priceIn.placeholder='Price';
-    var origIn=document.createElement('input');origIn.type='number';origIn.id='sl-o-'+i;origIn.value=l.original||'';origIn.placeholder='Was $';
-    var condSel=document.createElement('select');condSel.id='sl-c-'+i;
-    ['Excellent','Good','Fair','Sold'].forEach(function(opt){var o=document.createElement('option');o.value=opt;o.textContent=opt;if(l.sold&&opt==='Sold')o.selected=true;else if(!l.sold&&l.condition===opt)o.selected=true;condSel.appendChild(o);});
-    var delBtn=document.createElement('button');delBtn.type='button';delBtn.className='admdel';delBtn.textContent='x';
-    (function(idx){delBtn.addEventListener('click',function(){STATE.selling.splice(idx,1);buildAdminSell();buildSelling();toast('Listing removed.');});})(i);
-    row1.appendChild(nameIn);row1.appendChild(priceIn);row1.appendChild(origIn);row1.appendChild(condSel);row1.appendChild(delBtn);
-    var specsIn=inp('text','sl-s-'+i,l.specs,'e.g. Midnight · 128GB · Unlocked');
-    var urlIn=inp('url','sl-u-'+i,l.listingUrl,'https://www.facebook.com/marketplace/item/...');
-    var descIn=document.createElement('textarea');descIn.className='sell-adm-desc';descIn.id='sl-d-'+i;descIn.rows=2;descIn.value=l.desc||'';descIn.placeholder='Brief description shown on the listing card...';
-    var thumbGrid=document.createElement('div');thumbGrid.className='photo-thumbs';thumbGrid.id='sl-thumbs-'+i;
-    var countLbl=document.createElement('div');countLbl.className='photo-count-label';countLbl.id='sl-pcount-'+i;
-    var fileInput=document.createElement('input');fileInput.type='file';fileInput.accept='image/*';fileInput.multiple=true;fileInput.className='photo-upload-input';fileInput.id='sl-fi-'+i;
-    (function(idx){fileInput.addEventListener('change',function(e){
-      var files=Array.prototype.slice.call(e.target.files);
-      if(!STATE.selling[idx].images)STATE.selling[idx].images=[];
-      var remaining=6-STATE.selling[idx].images.length;
-      if(remaining<=0){toast('Max 6 photos per listing.');e.target.value='';return;}
-      files=files.slice(0,remaining);var count=0;
-      files.forEach(function(file){var reader=new FileReader();reader.onload=function(ev){STATE.selling[idx].images.push(ev.target.result);count++;if(count===files.length)refreshThumbs(idx);};reader.readAsDataURL(file);});
-      e.target.value='';
-    });})(i);
-    var uploadLabel=document.createElement('label');uploadLabel.htmlFor='sl-fi-'+i;uploadLabel.className='photo-upload-zone';uploadLabel.innerHTML='<p>Click to add photos</p><span>JPG, PNG, WEBP · Max 6 total</span>';
-    item.appendChild(row1);
-    item.appendChild(lbl('Specs'));item.appendChild(specsIn);
-    item.appendChild(lbl('Marketplace Listing URL (optional)'));item.appendChild(urlIn);
-    item.appendChild(lbl('Description'));item.appendChild(descIn);
-    item.appendChild(lbl('Photos (max 6)'));item.appendChild(thumbGrid);item.appendChild(countLbl);item.appendChild(fileInput);item.appendChild(uploadLabel);
-    c.appendChild(item);refreshThumbs(i);
-  });
-}
-
-function initAdmin(){
-  if(loggedIn){ge('loginwrap').style.display='none';ge('panelwrap').style.display='';populateAdmin();}
-  else{ge('loginwrap').style.display='';ge('panelwrap').style.display='none';ge('admerr').textContent='';ge('admpw').value='';}
-}
-function populateAdmin(){
-  var html='';STATE.screens.forEach(function(p,i){html+='<div class="admrow"><label>'+esc(p.model)+'</label><input type="number" id="ai-l-'+i+'" value="'+p.lcd+'" placeholder="LCD"/><input type="number" id="ai-o-'+i+'" value="'+(p.oled||'')+'" placeholder="OLED"/><span class="note">LCD / OLED</span></div>';});
-  ge('iphrows').innerHTML=html;
-  ge('bat-low').value=STATE.battery.low;ge('bat-mid').value=STATE.battery.mid;ge('bat-high').value=STATE.battery.high;ge('bat-pro').value=STATE.battery.pro;ge('bat-promax').value=STATE.battery.promax;
-  buildAdminSell();buildAdminPC();
-}
-
-ge('loginbtn').addEventListener('click',function(){if(ge('admpw').value===PASS){loggedIn=true;ge('loginwrap').style.display='none';ge('panelwrap').style.display='';populateAdmin();}else{ge('admerr').textContent='Incorrect password.';}});
-ge('admpw').addEventListener('keydown',function(e){if(e.key==='Enter')ge('loginbtn').click();});
-ge('logoutbtn').addEventListener('click',function(){loggedIn=false;ge('loginwrap').style.display='';ge('panelwrap').style.display='none';ge('admpw').value='';ge('admerr').textContent='';});
-ge('saveiph').addEventListener('click',function(){STATE.screens.forEach(function(p,i){var l=ge('ai-l-'+i),o=ge('ai-o-'+i);if(l){var v=parseInt(l.value);if(!isNaN(v))p.lcd=v;}if(o)p.oled=o.value?(parseInt(o.value)||null):null;});buildRepairs();toast('iPhone prices updated!');});
-ge('savebat').addEventListener('click',function(){STATE.battery.low=parseInt(ge('bat-low').value)||STATE.battery.low;STATE.battery.mid=parseInt(ge('bat-mid').value)||STATE.battery.mid;STATE.battery.high=parseInt(ge('bat-high').value)||STATE.battery.high;STATE.battery.pro=parseInt(ge('bat-pro').value)||STATE.battery.pro;STATE.battery.promax=parseInt(ge('bat-promax').value)||STATE.battery.promax;buildRepairs();toast('Battery prices updated!');});
-ge('addsell').addEventListener('click',function(){STATE.selling.push({id:Date.now(),name:'New Listing',specs:'',desc:'',price:0,original:0,condition:'Good',icon:'📱',sold:false,images:[],listingUrl:''});buildAdminSell();toast('New listing added — fill in details and hit Save.');});
-ge('savesell').addEventListener('click',function(){
-  STATE.selling.forEach(function(l,i){
-    var n=ge('sl-n-'+i),p=ge('sl-p-'+i),o=ge('sl-o-'+i),c=ge('sl-c-'+i),d=ge('sl-d-'+i),s=ge('sl-s-'+i),u=ge('sl-u-'+i);
-    if(n)l.name=n.value;if(s)l.specs=s.value;if(u)l.listingUrl=u.value;if(d)l.desc=d.value;
-    if(p)l.price=parseInt(p.value)||0;if(o)l.original=parseInt(o.value)||0;
-    if(c){l.sold=c.value==='Sold';l.condition=l.sold?l.condition:c.value;}
-  });
-  buildSelling();toast('Listings saved and live!');
-});
-
-function buildAdminPC(){
-  var c=ge('pcrows');c.innerHTML='';
-  STATE.pc.forEach(function(l,i){
-    var row=document.createElement('div');row.className='admlistrow';
-    row.innerHTML='<input type="text" id="pc-n-'+i+'" value="'+esc(l.name)+'" placeholder="Name"/><input type="number" id="pc-p-'+i+'" value="'+l.price+'" placeholder="Price"/><input type="number" id="pc-o-'+i+'" value="'+(l.original||'')+'" placeholder="Original"/><input type="text" id="pc-s-'+i+'" value="'+esc(l.specs)+'" placeholder="Specs"/><button class="admdel">x</button>';
-    (function(idx){row.querySelector('.admdel').addEventListener('click',function(){STATE.pc.splice(idx,1);buildAdminPC();buildPC();toast('PC listing removed.');});})(i);
-    c.appendChild(row);
-  });
-}
-
-ge('addpc').addEventListener('click',function(){STATE.pc.push({id:Date.now(),name:'New Listing',specs:'',price:0,original:0,icon:'🖥'});buildAdminPC();toast('New PC listing added — fill in details and save.');});
-ge('savepc').addEventListener('click',function(){
-  STATE.pc.forEach(function(l,i){
-    var n=ge('pc-n-'+i),p=ge('pc-p-'+i),o=ge('pc-o-'+i),s=ge('pc-s-'+i);
-    if(n)l.name=n.value;if(s)l.specs=s.value;
-    if(p)l.price=parseInt(p.value)||0;if(o)l.original=parseInt(o.value)||0;
-  });
-  buildPC();toast('PC listings saved and live!');
-});
 </script>
 </body>
 </html>
